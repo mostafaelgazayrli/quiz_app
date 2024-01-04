@@ -1,0 +1,90 @@
+#quiz {
+    background-color: bisque;
+}
+.hide {
+    display: none;
+}
+#score {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+#timer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+#quiz-start{
+    text-align: center;
+    margin: 100px auto 0 auto
+}
+button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    background-color: blue ;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+}
+button :hover{
+    background-color: black;
+}
+#question-area {
+    text-align: center;
+    margin: 100px auto 0 auto;
+    max-width: 400px;
+}
+#question-title {
+    font-size: 24px;
+}
+#answers button {
+    display: block;
+}
+#quiz-end {
+    text-align: center;
+    margin: 100px auto 0 auto
+}
+#all {
+    font-size: 60px;
+    color: green ;
+}
+#sc #quiz-start p #na {
+    font-size: 24px;
+}
+#quiz-start h3 {
+    font-size: 50px;
+}
+
+#quiz-start p span { 
+    color: red;
+}
+#quiz-start h3 span {
+    color: blue;
+}
+#feedback {
+    text-align: center;
+    margin: 100px auto 0 auto;
+    font-size: 24px;
+}
+#score-screen {
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+li {
+    padding: 5px;
+    list-style: decimal inside none;
+    background-color: antiquewhite;
+    text-align: center;
+    width: auto;
+
+}

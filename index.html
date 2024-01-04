@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="quiz-app">
+        <div id="quiz-app">
+            <a id="score" href="highscore.html">High Score</a>
+            <div id="timer">Time : <span id="time">0</span></div>
+            <div id="quiz-start" class="">
+                <h3>Quiz For <span>HTML,CSS,JAVASCTIPT</span></h3>
+                <p>
+                    Try to answer the question in the specified time.
+                    <br>If you do not select an option,
+                    <br>we will mark this question as an <span>!!WRONG!!</span>
+                </p>
+                <button id="start-btn">Start Quiz</button>
+            </div>
+            <div id="question-area" class="hide">
+                <div id="question-title"></div>
+                <div id="answers">
+                </div>
+            </div>
+            <div id="quiz-end" class="hide">
+                <div id="all">All Done !</div>
+                <p id="sc">Your Final Score is <span id="Final-score">0</span></p>
+                <p id="na">Please enter your name <input type="text" id="user-name"></p>
+                <button id="submit">Submit</button>
+            </div>
+            <div id="feedback" class="hide">Your Choice Is <span id="feedback-1"></span></div>
+
+        </div>
+    </div> 
+    <script src="script/question.js"></script>    
+    <script src="script/script.js"></script>  
+</body>
+</html>
