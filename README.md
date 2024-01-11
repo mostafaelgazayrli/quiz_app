@@ -20,7 +20,7 @@ This is a simple quiz application built with HTML, CSS, and JavaScript.
    - Run the following command to clone the repository to your local machine:
 
      ```bash
-     git clone https://github.com/your-username/quiz-application.git
+     git clone https://github.com/mostafaelgazayrli/quiz_app.gitLinks to an external site.
      ```
 
 2. **Navigate to Project Folder:**
